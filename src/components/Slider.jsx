@@ -65,7 +65,7 @@ const Slider = () => {
     };
 
     return (
-        <div className="h-screen w-full relative overflow-hidden bg-fixed  bg-cover bg-center bg-[url('./slider-bg.jpg')]">
+        <div className="h-screen w-full relative overflow-hidden bg-fixed  bg-cover bg-center bg-[url('/slider-bg.jpg')]">
 
             {/* SLIDER CONTAINER */}
             <div

@@ -14,7 +14,7 @@ const Weight = () => {
                 </div>
             </div>
             <div className='h-full w-1/2'>
-                <img className='object-contain' src="./weightlift.jpg" alt="" />
+                <img className='object-contain' src="/weightlift.jpg" alt="" />
             </div>
         </section>
     )

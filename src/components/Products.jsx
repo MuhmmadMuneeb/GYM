@@ -2,10 +2,10 @@ import React from 'react'
 
 const Products = () => {
     const products = [
-        { id: 1, img: "./product1.png", title: "Protein 100% Green", price: "$85" },
-        { id: 2, img: "./product2.png", title: "Protein 100% Green", price: "$85" },
-        { id: 3, img: "./product3.png", title: "Protein 100% Green", price: "$85" },
-        { id: 4, img: "./product4.png", title: "Protein 100% Green", price: "$85" },
+        { id: 1, img: "/product1.png", title: "Protein 100% Green", price: "$85" },
+        { id: 2, img: "/product2.png", title: "Protein 100% Green", price: "$85" },
+        { id: 3, img: "/product3.png", title: "Protein 100% Green", price: "$85" },
+        { id: 4, img: "/product4.png", title: "Protein 100% Green", price: "$85" },
     ]
 
     return (

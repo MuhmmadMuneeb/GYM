@@ -15,7 +15,7 @@ const Logos = () => {
                     {[1,2,3,4,5].map((item) => (
                         <img
                             key={item}
-                            src={`./logo${item}.png`}
+                            src={`/logo${item}.png`}
                             alt="brand-logo"
                             className="
                                 h-8 sm:h-10 md:h-12 lg:h-14

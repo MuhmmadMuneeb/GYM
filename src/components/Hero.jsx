@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="relative w-full h-screen overflow-hidden">
 
             {/* Background */}
-            <div className='absolute inset-0 bg-center bg-cover bg-[url("./hero-img.jpg")] z-[-2]' />
+            <div className='absolute inset-0 bg-center bg-cover bg-[url("/hero-img.jpg")] z-[-2]' />
 
             {/* Overlay Content */}
             <div className='relative z-10 flex flex-col justify-center h-full px-6 sm:px-10 md:px-16 lg:px-24'>
@@ -23,8 +23,8 @@ const Hero = () => {
 
                 {/* Plus Icons */}
                 <div className='mt-6 flex gap-3'>
-                    <img className='h-6 sm:h-8' src="./plus.png" alt="" />
-                    <img className='h-6 sm:h-8' src="./plus.png" alt="" />
+                    <img className='h-6 sm:h-8' src="/plus.png" alt="" />
+                    <img className='h-6 sm:h-8' src="/plus.png" alt="" />
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ const Hero = () => {
 
             {/* Background Year Image */}
             <div className='hidden md:block fixed z-[-1] left-0 top-1/2'>
-                <img className='h-48 lg:h-72' src="./2018.png" alt="" />
+                <img className='h-48 lg:h-72' src="/2018.png" alt="" />
             </div>
 
         </section>
